@@ -1,6 +1,6 @@
 Write-Host "Downloading MaxOS..."
 
-$root = "$env:USERPROFILE\.maxkernel"
+$root = "$env:USERPROFILE"
 
 New-Item -ItemType Directory -Force -Path $root | Out-Null
 
